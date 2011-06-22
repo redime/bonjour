@@ -1,0 +1,46 @@
+/* line 2, ../../app/stylesheets/ie.scss */
+header {
+  overflow: hidden;
+}
+
+/* line 6, ../../app/stylesheets/ie.scss */
+#contents {
+  overflow: hidden;
+}
+
+/* line 10, ../../app/stylesheets/ie.scss */
+footer {
+  overflow: hidden;
+}
+
+/* line 14, ../../app/stylesheets/ie.scss */
+a img {
+  border: none;
+}
+
+/*nav {
+  position: inherit;
+  
+  & > ul > li > ul,
+  & > ul > li > div {
+    /*position: relative; */
+    z-index: 3;
+  }
+
+  & > div.panel {
+    /*margin: 0; */
+    /*position: relative; */
+    z-index: 2;
+  }
+}
+
+#products-slider {
+  position: relative;
+  z-index: -1;
+
+  #slide-box {
+    /*behavior: url('/stylesheets/PIE.htc'); */
+  }
+}
+
+*/

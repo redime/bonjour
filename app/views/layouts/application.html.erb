@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Redime</title>
+  
+  <%= csrf_meta_tag %>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  
+  <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
+  
+  <%= stylesheet_link_tag 'screen.css', :media => 'screen, projection' %>
+  <%= stylesheet_link_tag 'print.css', :media => 'print' %>
+  <%= javascript_include_tag 'libs/modernizr.full', 'main' %>
+</head>
+<!--[if IE 8]> <body class="ie ie8"> <![endif]-->
+<!--[if IE 9]> <body class="ie ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <body> <!--<![endif]-->
+  <header>
+    <div id="logo">
+      <a href="http://www.redime.com.br" title="Redime">
+        <%= image_tag 'logo.png', :alt => 'Redime' %>
+      </a>
+    </div>
+    
+    <div id="navigation">
+      <div id="menu-i18n">
+        <a href="#">english</a> |
+        <a href="#">español</a>
+      </div>
+      
+      <!-- Page navigator -->
+      <nav>
+        <ul>
+          <li
+            data-description="Produtos comercializados pela Redime.">
+            <a href="#">Produtos</a>
+            <ul>
+              <li><a href="#">Aplicativo 01</a></li>
+              <li><a href="#">Aplicativo 02</a></li>
+            </ul>
+          </li>
+
+          <li
+            data-description="Serviços fornecidos pela Redime.">
+            <a href="#">Serviços</a>
+            <ul>
+              <li><a href="#">Serviço 01</a></li>
+              <li><a href="#">Serviço 02</a></li>
+            </ul>
+          </li>
+
+          <li
+            data-description="Treinamento nos produtos Redime.">
+            <a href="#">Treinamento</a>
+            <ul>
+              <li><a href="#">Treinamento 01</a></li>
+              <li><a href="#">Treinamento 02</a></li>
+            </ul>
+          </li>
+
+          <li
+            data-description="O nosso suporte.">
+            <a href="#">Suporte</a>
+            <ul>
+              <li><a href="#">Suporte 01</a></li>
+              <li><a href="#">Suporte 02</a></li>
+            </ul>
+          </li>
+
+          <li
+            data-description="A melhor empresa do mundo!">
+            <a href="#">Institucional</a>
+            <div>Test</div>
+          </li>
+        </ul>
+      </nav>
+      
+    </div>
+  </header>
+  
+  <div id="products-slider">
+    <div id="slide-box">
+      <%= image_tag 'banner.png' %>
+    </div>
+  </div>
+  
+  <div id="contents">
+    <div id="corporate-info">
+      <section id="about-us">
+        <h1>Sobre a Redime</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam egestas nisi eget ligula scelerisque vehicula. Fusce lacinia mattis urna, in facilisis augue dictum et. Donec sit amet erat massa, eu consequat odio. Integer ultrices, velit a convallis pulvinar, urna purus tincidunt turpis, nec volutpat sapien nulla non magna. Etiam quis ante tellus. Mauris ac sem a metus rutrum pretium. Duis accumsan feugiat mi, ut lacinia urna volutpat sit amet. Sed eleifend tempor arcu, vitae sollicitudin risus viverra mattis. Etiam varius elementum ornare.
+        </p>
+      </section>
+      
+      <section id="work-with-us">
+        <h1>Trabalhe Conosco</h1>
+        <p>
+          Suspendisse imperdiet sem in magna venenatis scelerisque. Morbi vel pharetra tellus. Morbi sollicitudin mauris non erat convallis sed volutpat dolor dapibus. Mauris ut odio in nulla tristique malesuada a pharetra sapien.
+        </p>
+      </section>
+    </div>
+    
+    <div id="experience-and-thoughts">
+      <section id="customers">
+        <h1>Clientes e Parceiros</h1>
+        
+        <article>
+          <img style="width: 100px; height: 70px;" src="/images/pixel.png" />
+          <h1>Empresa X</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="#">Saiba mais</a>.</p>
+        </article>
+        
+        <article>
+          <img style="width: 100px; height: 70px;" src="/images/pixel.png" />
+          <h1>Empresa Y</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="#">Saiba mais</a>.</p>
+        </article>
+      </section>
+      
+      <section id="news-and-articles">
+        <h1>Notícias e Artigos</h1>
+        
+        <div>
+          <article>
+            <img style="width: 100%; height: 80px;" src="/images/pixel.png" />
+            <h1>Lorem ipsum dolor sit amet</h1>
+            <p>
+              Mauris pharetra purus id erat vehicula et suscipit massa aliquam. Morbi neque
+              ipsum, tempor ac pharetra vel, aliquam sed lorem. Quisque ligula lacus, ullamcorper
+              non lacinia id, feugiat id leo. Mauris euismod, tortor eu porta malesuada, quam
+              augue molestie tortor, in sodales ligula lorem in sem.
+            </p>
+          </article>
+          
+          <article>
+            <img style="width: 100%; height: 80px;" src="/images/pixel.png" />
+            <h1>Maecenas sed dolor pretium est</h1>
+            <p>
+              Morbi lacinia mattis lorem eget porta. Nullam id enim dolor. Aliquam malesuada
+              accumsan dolor, in pellentesque erat vestibulum at. In pretium nunc eu lorem rutrum
+              dictum. Nam condimentum rhoncus metus, ac placerat neque fermentum eu. Phasellus
+              vel sem facilisis ipsum molestie iaculis. Etiam elit metus, bibendum vel vehicula
+              sit amet, scelerisque at neque.
+            </p>
+          </article>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div id="navigation-path">
+    <div>
+      <a id="logo" href="#">&nbsp;</a>
+      <span><a href="http://www.redime.com.br">home</a></span>
+      <span id="login"><a href="#">Área de Clientes</a></span>
+    </div>
+  </div>
+  
+  <footer>
+    <div>
+      <h1>Solte o Verbo!</h1>
+
+      <p>Clique nos botões abaixo para compartilhar nosso website!</p>
+      
+      <img style="width: 70px; height: 70px" src="/images/pixel.png" alt="twitter" />
+      <img style="width: 70px; height: 70px" src="/images/pixel.png" alt="facebook" />
+      
+      <h1>Siga a Redime</h1>
+      
+      <p id="stay-tune">
+        <a href="#"><img src="/images/social/facebook.png" /></a>
+        <a href="#"><img src="/images/social/twitter.png" /></a>
+        <a href="#"><img src="/images/social/rss.png" /></a>
+        <a href="#"><img src="/images/social/mail.png" /></a>
+      </p>
+    </div>
+    
+    <div>&nbsp;</div>
+    
+    <div>
+      <h1>Entre em contato</h1>
+      
+      <div class="vcard">
+        <div class="tel">
+          +55 (99) 3524 6473
+        </div>
+        
+        <div>
+          <img src="/images/social/mail-small.png" />
+          <span class="email">contato@redime.com.br</span>
+        </div>
+        
+        <a class="fn org url" href="http://www.redime.com.br/">Redime</a>
+        <div class="adr">
+          <div class="street-address">Rua Sergipe 171</div>
+          <div>
+            <span class="locality">Imperatriz</span>
+            <abbr class="region" title="Maranhão">MA</abbr>
+            <span class="postal-code">65903-340</span>
+          </div>
+          <div class="country-name">Brasil</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <div id="copyright">
+    &copy; 2011 Redime. Todos os direitos reservados.
+  </div>
+</body>

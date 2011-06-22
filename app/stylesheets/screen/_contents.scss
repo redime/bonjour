@@ -1,0 +1,159 @@
+
+@import 'compass/css3/box';
+@import 'compass/css3/box-sizing';
+
+div#contents {
+  @include display-box;
+  @include box-align(center);
+  @include box-orient(vertical);
+  @include box-pack(start);
+  
+  background: {
+    image: url('/images/content-bottom-bg.png');
+    position: bottom center;
+    repeat: no-repeat;
+  }
+  
+  width: 100%;
+
+  .no-flexbox & {
+    overflow: hidden;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 22px;
+    font-weight: normal;
+    text-shadow: 1px 1px #FFF;
+  
+    margin: {
+      top: 0;
+      bottom: 10px;
+      left: 0;
+      right: 0;
+    }
+    padding: 0;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 13px;
+    font-weight: normal;
+    text-shadow: 1px 1px #FFF;
+  
+    margin: 0;
+    padding: 0;
+  }
+  
+  & > * {
+    @include display-box;
+    @include box-align(top);
+    @include box-orient(horizontal);
+    @include box-pack(start);
+    
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #CCC;
+    
+    padding: {
+      top: 10px;
+      bottom: 10px;
+      left: 0;
+      right: 0;
+    }
+    width: 900px;
+    
+    &:first-child {
+      border-top: none;
+    }
+    
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+  
+  article {
+    padding-bottom: 20px;
+    overflow: hidden;
+    
+    & > h1 {
+      color: #002144;
+      font-size: 19px;
+      margin: 0;
+    }
+  }
+  
+  section#about-us {
+    background-color: #DDDDDD;
+    border: 1px solid #CCC;
+    
+    padding: 10px 10px 0 10px;
+    width: 600px;
+    
+    @include box-flex(1);
+  }
+  
+  section#work-with-us {
+    padding: {
+      top: 10px;
+      left: 20px;
+      right: 10px;
+    }
+    width: 300px;
+    
+    @include box-flex(1);
+  }
+  
+  section#customers, section#news-and-articles {
+    padding-top: 10px;
+    width: 450px;
+    
+    @include box-flex(1);
+  }
+  
+  section#customers {
+    border-right: 1px solid #CCC;
+    
+    padding: {
+      left: 10px;
+      right: 14px;
+    }
+    
+    article {
+      overflow: hidden;
+      //margin: 20px 0;
+
+      img {
+        float: left;
+        margin: 10px;
+      }
+      
+      p {
+        margin: 5px 0;
+      }
+    }
+  }
+  
+  section#news-and-articles {
+    border-left: 1px solid #FFF;
+    
+    padding: {
+      left: 14px;
+      right: 10px;
+    }
+
+    article {
+      float: right;
+      
+      width: 207px;
+      
+      &:first-child {
+        float: left;
+        padding-right: 10px !important;
+      }
+      
+      img {
+        margin-bottom: 10px;
+      }
+    } // article
+  } // #news-and-articles
+} // contents

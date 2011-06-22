@@ -1,0 +1,153 @@
+
+@import 'compass/css3/box';
+@import 'compass/css3/box-shadow';
+@import 'compass/css3/images';
+
+//$experimental-support-for-svg: true;
+
+nav {
+  background-color: #F4F4F4;
+  border: {
+    top: 1px solid #CCC;
+    left: 1px solid #CCC;
+    bottom: 1px solid #BBB;
+    right: 1px solid #BBB;
+  }
+
+  display: inline-block;
+  margin: 10px 0 0 0;
+  padding: 0 0 1px 0;
+  position: relative;
+  z-index: 2;
+  
+  @include box-align(right);  
+  @include -redime-block-list(horizontal);
+
+  .ie & {
+    position: inherit;
+  
+    & > ul > li > ul,
+    & > ul > li > div {
+      //position: relative;
+      z-index: 3;
+    }
+
+    & > div.panel {
+      //margin: 0;
+      //position: relative;
+      z-index: 2;
+    }
+  }
+
+  & > ul {
+    @include background-image(linear-gradient(#F4F4F4, #DFE0E1));
+
+    .no-cssgradients & {
+      background: {
+        image: url('/images/navbar-gradient.png');
+        position: top;
+        repeat: repeat-x;
+      }
+    }
+
+    & > li {
+      @include -redime-block-list(vertical);
+
+      &.selected > a {
+        background-color: #F4F4F4;
+        color: #53534C;
+      }
+      
+      // First level link
+      & > a {
+        color: #747476;
+        font: {
+          size: 13px;
+          weight: 500;
+        }
+        cursor: default;
+        text-decoration: none;
+        text-shadow: 1px 1px #FFF;
+        
+        padding: {
+          top: 6px;
+          left: 12px;
+          bottom: 5px;
+          right: 12px;
+        }
+        
+        &:hover, &:focus {
+          background-color: #F4F4F4;
+          color: #53534C;
+        }
+      } // li > a
+
+      // Submenus
+      & > ul, & > div {
+        display: none;
+        margin-top: 1px;
+        position: absolute;
+        z-index: 1;
+      }
+
+      & > ul {
+        margin-left: 10px;
+
+        a {
+          color: #747476;
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    } // li
+  } // ul
+
+  & > div.panel {
+    background-color: #F4F4F4;
+    border: {
+      top: none;
+      left: 1px solid #CCC;
+      right: 1px solid #BBB;
+      bottom: 1px solid #BBB;
+    }
+    color: #FFF;
+
+    display: none;
+    height: 150px;
+    margin-left: -1px;
+    position: absolute;
+    z-index: -1;
+
+    @include box-shadow(0 0 10px rgba(0,0,0,0.2));
+
+    & > div {
+      background-color: #004056;
+
+      height: 148px;
+      width: 120px;
+      margin: 1px;
+
+      h1 {
+        font: {
+          size: 13px;
+          weight: 500;
+        }
+
+        margin: 0;
+        padding: 20px 10px 5px 10px;
+      }
+
+      p {
+        margin: 0;
+        padding: 5px 10px 5px 10px;
+      }
+    } // & > div
+
+    &.right-align > div {
+      float: right;
+    }
+  }
+} // nav

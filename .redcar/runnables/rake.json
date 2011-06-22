@@ -1,0 +1,550 @@
+{
+  "commands": [
+    {
+      "name": "about",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake about",
+      "description": "List versions of all Rails frameworks and the environment",
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/abort_if_pending_migrations",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:abort_if_pending_migrations",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/charset",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:charset",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/collation",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:collation",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/create",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:create",
+      "description": "Create the database from config/database.yml for the current Rails.env (use db:create:all to create all dbs in the config)",
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/create/all",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:create:all",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/drop",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:drop",
+      "description": "Drops the database for the current Rails.env (use db:drop:all to drop all databases)",
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/drop/all",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:drop:all",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/fixtures/identify",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:fixtures:identify",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/fixtures/load",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:fixtures:load",
+      "description": "Load fixtures into the current environment's database.",
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/forward",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:forward",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/load_config",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:load_config",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/migrate",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:migrate",
+      "description": "Migrate the database (options: VERSION=x, VERBOSE=false).",
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/migrate/down",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:migrate:down",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/migrate/redo",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:migrate:redo",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/migrate/reset",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:migrate:reset",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/migrate/status",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:migrate:status",
+      "description": "Display status of migrations",
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/migrate/up",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:migrate:up",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/reset",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:reset",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/rollback",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:rollback",
+      "description": "Rolls the schema back to the previous version (specify steps w/ STEP=n).",
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/schema/dump",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:schema:dump",
+      "description": "Create a db/schema.rb file that can be portably used against any DB supported by AR",
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/schema/load",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:schema:load",
+      "description": "Load a schema.rb file into the database",
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/seed",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:seed",
+      "description": "Load the seed data from db/seeds.rb",
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/sessions/clear",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:sessions:clear",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/sessions/create",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:sessions:create",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/setup",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:setup",
+      "description": "Create the database, load the schema, and initialize with the seed data (use db:reset to also drop the db first)",
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/structure/dump",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:structure:dump",
+      "description": "Dump the database structure to an SQL file",
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/test/clone",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:test:clone",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/test/clone_structure",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:test:clone_structure",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/test/load",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:test:load",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/test/prepare",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:test:prepare",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/test/purge",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:test:purge",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "db/version",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake db:version",
+      "description": "Retrieves the current schema version number",
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "default",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake default",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "doc",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake doc",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "doc/api",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake doc/api",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "doc/api/index.html",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake doc/api/index.html",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "doc/app",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake doc/app",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "doc/app/index.html",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake doc/app/index.html",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "doc/app",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake doc:app",
+      "description": "Generate docs for the app -- also availble doc:rails, doc:guides, doc:plugins (options: TEMPLATE=/rdoc-template.rb, TITLE=\"Custom Title\")",
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "doc/clobber",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake doc:clobber",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "doc/clobber_app",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake doc:clobber_app",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "doc/clobber_plugins",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake doc:clobber_plugins",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "doc/clobber_rails",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake doc:clobber_rails",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "doc/guides",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake doc:guides",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "doc/plugins",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake doc:plugins",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "doc/rails",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake doc:rails",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "doc/reapp",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake doc:reapp",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "doc/rerails",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake doc:rerails",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "environment",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake environment",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "log/clear",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake log:clear",
+      "description": "Truncates all *.log files in log/ to zero bytes",
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "middleware",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake middleware",
+      "description": "Prints out your Rack middleware stack",
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "notes",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake notes",
+      "description": "Enumerate all annotations (use notes:optimize, :fixme, :todo for focus)",
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "notes/custom",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake notes:custom",
+      "description": "Enumerate a custom annotation, specify with ANNOTATION=CUSTOM",
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "notes/fixme",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake notes:fixme",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "notes/optimize",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake notes:optimize",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "notes/todo",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake notes:todo",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "rails/freeze/edge",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake rails:freeze:edge",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "rails/freeze/gems",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake rails:freeze:gems",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "rails/template",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake rails:template",
+      "description": "Applies the template supplied by LOCATION=/path/to/template",
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "rails/templates/copy",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake rails:templates:copy",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "rails/unfreeze",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake rails:unfreeze",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "rails/update",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake rails:update",
+      "description": "Update both configs and public/javascripts from Rails (or use just update:javascripts or update:configs)",
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "rails/update/application_controller",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake rails:update:application_controller",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "rails/update/configs",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake rails:update:configs",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "rails/update/javascripts",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake rails:update:javascripts",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "rails/update/scripts",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake rails:update:scripts",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "rails_env",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake rails_env",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "redcar/runnables",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake redcar:runnables",
+      "description": "Redcar Integration: output runnable info",
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "routes",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake routes",
+      "description": "Print out all defined routes in match order, with names.",
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "secret",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake secret",
+      "description": "Generate a cryptographically secure secret key (this is typically used to generate a secret for cookie sessions).",
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "stats",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake stats",
+      "description": "Report code statistics (KLOCs, etc) from the application",
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "test",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake test",
+      "description": "Runs test:units, test:functionals, test:integration together (also available: test:benchmark, test:profile, test:plugins)",
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "test/benchmark",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake test:benchmark",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "test/functionals",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake test:functionals",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "test/integration",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake test:integration",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "test/plugins",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake test:plugins",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "test/prepare",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake test:prepare",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "test/profile",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake test:profile",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "test/recent",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake test:recent",
+      "description": "Run tests for {:recent=>\"test:prepare\"} / Test recent changes",
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "test/uncommitted",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake test:uncommitted",
+      "description": "Run tests for {:uncommitted=>\"test:prepare\"} / Test changes since last checkin (only Subversion and Git)",
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "test/units",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake test:units",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "time/zones/all",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake time:zones:all",
+      "description": "Displays all time zones, also available: time:zones:us, time:zones:local -- filter with OFFSET parameter, e.g., OFFSET=-6",
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "time/zones/local",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake time:zones:local",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "time/zones/us",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake time:zones:us",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "tmp/cache/clear",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake tmp:cache:clear",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "tmp/clear",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake tmp:clear",
+      "description": "Clear session, cache, and socket files from tmp/ (narrow w/ tmp:sessions:clear, tmp:cache:clear, tmp:sockets:clear)",
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "tmp/create",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake tmp:create",
+      "description": "Creates tmp directories for sessions, cache, sockets, and pids",
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "tmp/pids/clear",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake tmp:pids:clear",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "tmp/sessions/clear",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake tmp:sessions:clear",
+      "description": null,
+      "type": "task/ruby/rake"
+    },
+    {
+      "name": "tmp/sockets/clear",
+      "command": "/home/carlos/.rvm/rubies/ruby-1.9.2-p180/bin/ruby -r/home/carlos/Projetos/Redime/bonjour/lib/tasks/.redcar/runnables/sync_stdout.rb /home/carlos/.rvm/gems/ruby-1.9.2-p180@global/bin/rake tmp:sockets:clear",
+      "description": null,
+      "type": "task/ruby/rake"
+    }
+  ]
+}

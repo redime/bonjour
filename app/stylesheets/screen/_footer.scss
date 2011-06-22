@@ -1,0 +1,171 @@
+
+@import 'compass/css3/box';
+
+div#navigation-path {
+  background: {
+    color: transparent;
+    image: url('/images/footer-top.png');
+    position: center;
+    repeat: no-repeat;
+  }
+
+  & > div {
+    line-height: 28px;
+    margin: 0 auto;
+    padding: {
+      left: 10px;
+      right: 10px;
+      top: 0;
+      bottom: 4px;
+    }
+    vertical-align: top;
+    
+    height: 30px;
+    width: 900px;
+    
+    a {
+      color: #555;
+      text-decoration: none;
+      
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    
+    a#logo {
+      background: {
+        image: url('/images/symbol-small.png');
+        position: top center;
+        repeat: no-repeat;
+      }
+      opacity: 0.5;
+      text-decoration: none;
+      
+      display: inline-block;
+      height: 20px;
+      width: 30px;
+      vertical-align: middle;
+      
+      &:hover {
+        background-position: bottom center;
+        opacity: 1;
+      }
+    }
+    
+    span {
+      margin-left: 10px;
+      vertical-align: middle;
+    }
+    
+    span#login {
+      float: right;
+    }
+  } // > div
+} // #navigation-path
+
+footer {
+  @include display-box;
+  @include box-align(top);
+  @include box-orient(horizontal);
+  @include box-pack(center);
+  
+  background-color: transparent;
+  color: #817E7A;
+
+  margin: 0 auto;
+  padding: 10px 0 0 0;
+  
+  width: 100%;
+  
+  .no-flexbox & {
+    overflow: visible;
+  }
+
+  & > div {
+    width: 280px;
+    padding: 0 10px 10px 10px;
+    
+    @include box-flex(0);
+
+    p#stay-tune a {
+      opacity: 0.5;
+    
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+  
+  h1 {
+    font-size: 15px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px #111;
+    
+    margin: 0;
+    padding: 15px 0 0 0;
+  }
+  
+  a {
+    color: #817E7A;
+  }
+  
+  p {
+    font-size: 13px;
+  }
+  
+  .vcard {
+    .tel {
+      font-size: 28px;
+      text-shadow: 1px 1px #111;
+      
+      margin: 10px 0 10px 0;
+    }
+    
+    img {
+      margin-right: 5px;
+      vertical-align: middle;
+    }
+    
+    img {
+      vertical-align: middle;
+    }
+
+    .email {
+      font-size: 18px;
+      text-shadow: 1px 1px #111;
+      
+      vertical-align: middle;
+    }
+    
+    .fn {
+      font-size: 15px;
+      
+      display: block;
+      margin-top: 15px;
+      margin-bottom: 5px;
+    }
+    
+    .adr {
+      font-size: 13px;
+      
+      & > * {
+        margin-bottom: 5px;
+      }
+    }
+    
+    .region {
+      margin-right: 10px;
+    }
+  } // .vcard
+} // footer
+
+div#copyright {
+  border-top: 1px solid #222;
+  background-color: transparent;
+  color: #FFFFFF;
+  font-size: 11px;
+  
+  margin: 0 auto;
+  padding: 10px;
+  width: 880px;
+}

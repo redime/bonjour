@@ -1,0 +1,54 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+//@import "compass/reset";
+@import 'compass/css3/transition';
+@import 'http://fonts.googleapis.com/css?family=Ubuntu:regular,500,bold';
+
+html {
+  
+}
+
+body {
+  background: {
+    color: #333;
+    image: url('/images/footer-bg.png');
+  }
+  color: #333;
+  font: {
+    family: Ubuntu, Arial, Liberation Sans, Lucida Sans, sans-serif;
+    size: 12px;
+  }
+  
+  min-width: 910px;
+  height: 100%;
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+  
+  & > * {
+    background-color: #EEEDEE;
+    display: none;
+  }
+}
+
+a {
+  @include transition-property((color, background-color, opacity));
+  @include transition-duration(0.25s);
+  @include transition-timing-function(ease-in-out);
+
+  .ie & img {
+    border: none;
+  }
+}
+
+@import 'screen/util';
+
+@import 'screen/header';
+@import 'screen/navbar';
+@import 'screen/slider';
+@import 'screen/contents';
+@import 'screen/footer';

@@ -1,0 +1,57 @@
+
+@import 'compass/css3/box';
+
+header {
+  @include display-box;
+  @include box-align(center);
+  @include box-orient(horizontal);
+  @include box-pack(center);
+
+  width: 100%;
+  
+  .no-flexbox & {
+    overflow: hidden;
+  }
+
+  div#logo {
+    padding: {
+      top: 10px;
+      bottom: 10px;
+    }
+    width: 250px;
+  }
+  
+  div#navigation {
+    text-align: right;
+    
+    padding: {
+      top: 10px;
+      bottom: 10px;
+    }   
+    width: 650px;
+    
+    & > * {
+      text-align: left;
+    }
+    
+    div#menu-i18n {
+      color: #53534C;
+      font: {
+        size: 12px;
+        weight: normal;
+      }
+      text-align: right;
+      
+      display: block;
+
+      a {
+        color: #53534C;
+        text-decoration: none;
+
+        &:hover {
+          color: #004056;
+        }
+      }
+    } // menu-i18n
+  } // navigation
+} // header

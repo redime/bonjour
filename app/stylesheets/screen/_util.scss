@@ -1,0 +1,16 @@
+@mixin -redime-block-list($orient) {
+  & > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    & > li {
+      @if $orient == horizontal { display: table-cell; }
+      @if $orient == vertical { display: block; }
+      
+      a {
+        display: block;
+      }
+    }
+  }
+}
